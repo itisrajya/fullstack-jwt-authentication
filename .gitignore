@@ -1,1 +1,3 @@
 .vs/
+/server/server.authentication.data/bin/Debug/net8.0
+/server/server.authentication.data/obj/Debug/net8.0
