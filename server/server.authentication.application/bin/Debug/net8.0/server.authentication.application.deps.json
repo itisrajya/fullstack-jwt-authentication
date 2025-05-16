@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "server.authentication.application/1.0.0": {
+        "runtime": {
+          "server.authentication.application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "server.authentication.application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

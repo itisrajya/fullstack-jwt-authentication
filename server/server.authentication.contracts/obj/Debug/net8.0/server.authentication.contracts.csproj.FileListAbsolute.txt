@@ -1,0 +1,15 @@
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\bin\Debug\net8.0\server.authentication.contracts.exe
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\bin\Debug\net8.0\server.authentication.contracts.deps.json
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\bin\Debug\net8.0\server.authentication.contracts.runtimeconfig.json
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\bin\Debug\net8.0\server.authentication.contracts.dll
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\bin\Debug\net8.0\server.authentication.contracts.pdb
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\obj\Debug\net8.0\server.authentication.contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\obj\Debug\net8.0\server.authentication.contracts.AssemblyInfoInputs.cache
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\obj\Debug\net8.0\server.authentication.contracts.AssemblyInfo.cs
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\obj\Debug\net8.0\server.authentication.contracts.csproj.CoreCompileInputs.cache
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\obj\Debug\net8.0\server.authentication.contracts.sourcelink.json
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\obj\Debug\net8.0\server.authentication.contracts.dll
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\obj\Debug\net8.0\refint\server.authentication.contracts.dll
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\obj\Debug\net8.0\server.authentication.contracts.pdb
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\obj\Debug\net8.0\server.authentication.contracts.genruntimeconfig.cache
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\obj\Debug\net8.0\ref\server.authentication.contracts.dll

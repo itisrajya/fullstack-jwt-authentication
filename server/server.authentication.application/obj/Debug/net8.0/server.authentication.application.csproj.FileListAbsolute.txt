@@ -1,0 +1,15 @@
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\bin\Debug\net8.0\server.authentication.application.exe
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\bin\Debug\net8.0\server.authentication.application.deps.json
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\bin\Debug\net8.0\server.authentication.application.runtimeconfig.json
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\bin\Debug\net8.0\server.authentication.application.dll
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\bin\Debug\net8.0\server.authentication.application.pdb
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\obj\Debug\net8.0\server.authentication.application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\obj\Debug\net8.0\server.authentication.application.AssemblyInfoInputs.cache
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\obj\Debug\net8.0\server.authentication.application.AssemblyInfo.cs
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\obj\Debug\net8.0\server.authentication.application.csproj.CoreCompileInputs.cache
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\obj\Debug\net8.0\server.authentication.application.sourcelink.json
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\obj\Debug\net8.0\server.authentication.application.dll
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\obj\Debug\net8.0\refint\server.authentication.application.dll
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\obj\Debug\net8.0\server.authentication.application.pdb
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\obj\Debug\net8.0\server.authentication.application.genruntimeconfig.cache
+C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.application\obj\Debug\net8.0\ref\server.authentication.application.dll

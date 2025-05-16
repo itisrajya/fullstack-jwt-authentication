@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "d1jLAJ8Jg67zc4MEz3DohIkj05OvpQ9ksxJC+iA4vsE=",
+  "Source": "server.authentication.api",
+  "BasePath": "_content/server.authentication.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
