@@ -1,3 +1,6 @@
+using server.authentication.data.DatabaseConnection;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace server.authentication.api
 {
@@ -6,6 +9,13 @@ namespace server.authentication.api
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            // Connection Strings
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+            // Database Contexts
+            builder.Services.AddDbContext<UserDataContext>(options =>
+                options.UseSqlServer(connectionString, b => b.MigrationsAssembly("server.authentication.api")));
 
             // Add services to the container.
 
