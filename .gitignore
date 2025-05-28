@@ -4,3 +4,5 @@
 /server/server.authentication.data/obj
 /server/server.authentication.api/bin/Debug/net8.0
 /server/server.authentication.api/obj/Debug/net8.0/server.authentication.api.csproj.BuildWithSkipAnalyzers
+*.Up2Date
+*.cache
