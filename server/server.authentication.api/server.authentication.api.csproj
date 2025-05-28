@@ -20,6 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\server.authentication.application\server.authentication.application.csproj" />
+    <ProjectReference Include="..\server.authentication.contracts\server.authentication.contracts.csproj" />
     <ProjectReference Include="..\server.authentication.data\server.authentication.data.csproj" />
   </ItemGroup>
 
