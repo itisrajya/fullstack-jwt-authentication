@@ -11,7 +11,7 @@ namespace server.authentication.api.Controllers
         private readonly IRegisterUserService _registerUserService;
         public AuthenticationController(IRegisterUserService registerUserService)
         {
-            registerUserService = _registerUserService;
+            _registerUserService = registerUserService;
         }
 
         [HttpPost]
@@ -45,7 +45,5 @@ namespace server.authentication.api.Controllers
                 });
             }
         }
-
-
     }
 }
