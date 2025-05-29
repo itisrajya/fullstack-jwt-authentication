@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = server.authentication.contracts
-build_property.ProjectDir = C:\Users\rajya_vardhan\Source\Repos\fullstack-jwt-authentication\server\server.authentication.contracts\
+build_property.ProjectDir = C:\Users\rajya_vardhan\source\repos\fullstack-jwt-authentication\server\server.authentication.contracts\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
