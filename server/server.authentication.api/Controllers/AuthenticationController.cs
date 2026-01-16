@@ -9,9 +9,11 @@ namespace server.authentication.api.Controllers
 	public class AuthenticationController : ControllerBase
 	{
 		private readonly IRegisterUserService _registerUserService;
-		public AuthenticationController(IRegisterUserService registerUserService)
+		private readonly ILoginUserService _loginService;
+		public AuthenticationController(IRegisterUserService registerUserService, ILoginUserService loginService)
 		{
 			_registerUserService = registerUserService;
+			_loginService = loginService;
 		}
 
 		[HttpPost]
@@ -33,6 +35,23 @@ namespace server.authentication.api.Controllers
 			catch (Exception ex)
 			{
 				return StatusCode(500, new { Message = "An error occurred during registration.", Details = ex.Message });
+			}
+		}
+
+		[HttpPost("login")]
+		public async Task<IActionResult> Login([FromBody] LoginUserDto request)
+		{
+			if (!ModelState.IsValid)
+				return BadRequest(ModelState);
+
+			try
+			{
+				var token = await _loginService.Login(request.Email, request.Password);
+				return Ok();
+			}
+			catch (ArgumentException ex)
+			{
+				return Unauthorized(new { Message = ex.Message });
 			}
 		}
 	}

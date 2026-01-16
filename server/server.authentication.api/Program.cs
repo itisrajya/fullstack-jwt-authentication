@@ -23,10 +23,11 @@ namespace server.authentication.api
             builder.Services.AddScoped<IValidEmailService, ValidEmailService>();
             builder.Services.AddScoped<IUserCheckEmailExistService, UserCheckEmailExistService>();
             builder.Services.AddScoped<IRegisterUserService, RegisterUserService>();
+            builder.Services.AddScoped<ILoginUserService, LoginUserService>();
 
-            // Add services to the container.
+			// Add services to the container.
 
-            builder.Services.AddControllers();
+			builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
