@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using server.authentication.application.IService;
+using server.authentication.application.Service;
 using server.authentication.contracts.DTOs;
 
 namespace server.authentication.api.Controllers
@@ -10,10 +11,12 @@ namespace server.authentication.api.Controllers
 	{
 		private readonly IRegisterUserService _registerUserService;
 		private readonly ILoginUserService _loginService;
-		public AuthenticationController(IRegisterUserService registerUserService, ILoginUserService loginService)
+		private readonly IJwtTokenService _jwtTokenService;
+		public AuthenticationController(IRegisterUserService registerUserService, ILoginUserService loginService, IJwtTokenService jwtTokenService)
 		{
 			_registerUserService = registerUserService;
 			_loginService = loginService;
+			_jwtTokenService = jwtTokenService;
 		}
 
 		[HttpPost]
@@ -46,8 +49,9 @@ namespace server.authentication.api.Controllers
 
 			try
 			{
-				var token = await _loginService.Login(request.Email, request.Password);
-				return Ok();
+				var user = await _loginService.Login(request.Email, request.Password);
+				var token = _jwtTokenService.GenerateToken(user);
+				return Ok(token);
 			}
 			catch (ArgumentException ex)
 			{
