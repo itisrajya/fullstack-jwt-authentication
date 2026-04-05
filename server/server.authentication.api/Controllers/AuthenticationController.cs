@@ -19,7 +19,7 @@ namespace server.authentication.api.Controllers
 			_jwtTokenService = jwtTokenService;
 		}
 
-		[HttpPost]
+		[HttpPost("register")]
 		public async Task<IActionResult> Register([FromBody] RegisterUserDto request)
 		{
 			if (!ModelState.IsValid)
