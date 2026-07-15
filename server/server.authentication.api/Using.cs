@@ -1,0 +1,11 @@
+﻿global using System.Text;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using server.authentication.data.DatabaseConnection;
+global using Microsoft.EntityFrameworkCore;
+global using server.authentication.application.IService;
+global using server.authentication.application.Service;
+global using Microsoft.IdentityModel.Tokens;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.AspNetCore.Mvc;
+global using server.authentication.contracts.DTOs;

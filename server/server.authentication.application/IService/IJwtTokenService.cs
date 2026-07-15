@@ -1,9 +1,7 @@
-﻿using server.authentication.data.Entities;
+﻿
 
-namespace server.authentication.application.IService
+namespace server.authentication.application.IService;
+public interface IJwtTokenService
 {
-	public interface IJwtTokenService
-	{
-		string GenerateToken(User user);
-	}
+	string GenerateToken(User user);
 }

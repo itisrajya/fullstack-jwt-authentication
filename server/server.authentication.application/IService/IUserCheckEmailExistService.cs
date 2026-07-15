@@ -1,7 +1,5 @@
-﻿namespace server.authentication.application.IService
+﻿namespace server.authentication.application.IService;
+public interface IUserCheckEmailExistService
 {
-    public interface IUserCheckEmailExistService
-    {
-        Task<bool> IsEmailTaken(string email);
-    }
+    Task<bool> IsEmailTaken(string email);
 }

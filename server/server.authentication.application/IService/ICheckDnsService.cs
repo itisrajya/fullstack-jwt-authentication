@@ -1,9 +1,5 @@
-﻿using System.Net;
-
-namespace server.authentication.application.IService
+﻿namespace server.authentication.application.IService;
+public interface ICheckDnsService
 {
-    public interface ICheckDnsService
-    {
-        Task<IPAddress[]> GetHostEntryAsync(string domain);
-    }
+    Task<IPAddress[]> GetHostEntryAsync(string domain);
 }
