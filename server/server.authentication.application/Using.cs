@@ -1,0 +1,11 @@
+﻿global using System.Net;
+global using server.authentication.data.Entities;
+global using server.authentication.application.IService;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.IdentityModel.Tokens;
+global using Microsoft.EntityFrameworkCore;
+global using server.authentication.data.DatabaseConnection;
+global using System.Net.Mail;

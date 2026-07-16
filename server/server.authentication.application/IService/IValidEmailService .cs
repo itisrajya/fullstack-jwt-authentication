@@ -1,8 +1,6 @@
-﻿namespace server.authentication.application.IService
+﻿namespace server.authentication.application.IService;
+public interface IValidEmailService
 {
-    public interface IValidEmailService
-    {
-        bool IsValidEmailFormat(string email);
-        Task<bool> HasValidMxRecords(string email);
-    }
+    bool IsValidEmailFormat(string email);
+    Task<bool> HasValidMxRecords(string email);
 }

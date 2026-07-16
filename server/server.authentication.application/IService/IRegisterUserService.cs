@@ -1,9 +1,5 @@
-﻿using server.authentication.data.Entities;
-
-namespace server.authentication.application.IService
+﻿namespace server.authentication.application.IService;
+public interface IRegisterUserService
 {
-    public interface IRegisterUserService
-    {
-        Task<User> RegisterUser(string username, string email, string password);
-    }
+    Task<User> RegisterUser(string username, string email, string password);
 }

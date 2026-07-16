@@ -11,8 +11,9 @@ namespace server.authentication.data.DatabaseConnection
     public class UserDataContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<PasswordResetToken> PasswordResetTokens { get; set; }
 
-        public UserDataContext(DbContextOptions<UserDataContext> options) : base(options) 
+        public UserDataContext(DbContextOptions<UserDataContext> options) : base(options)
         {
 
         }
